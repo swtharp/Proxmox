@@ -1,5 +1,6 @@
 #!/bin/sh
-# Code to backup PVE host then send to BackBlaze via b2 command. 
+# Code to backup PVE host then send to BackBlaze via b2 command.
+# Stored on PVE host in /var/tmp and BackBlaze in my-proxmox-pve both for 7 days
 
 BACKUP_PATH="/var/tmp/"
 BACKUP_FILE="pve-host"

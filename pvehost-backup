@@ -1,4 +1,6 @@
 #!/bin/sh
+# Code to backup PVE host then send to BackBlaze via b2 command. 
+
 BACKUP_PATH="/var/tmp/"
 BACKUP_FILE="pve-host"
 KEEP_DAYS=7

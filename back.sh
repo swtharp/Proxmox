@@ -7,17 +7,17 @@
 
 # --- Configuration ---
 # Proxmox Backup Server (PBS) details
-echo "$2"
+# echo "$2"
 PBS_SERVER="192.168.3.76"
 PBS_USER="root@pam" # Or @pbs if using PBS realm
 PBS_PASSWORD="sherw00d" # Consider using a keyfile for better security
-PBS_DATASTORE="$2"
+# PBS_DATASTORE="$2"
 PBS_FINGERPRINT="e5:81:8b:4d:fb:38:be:7d:fc:af:fd:9e:6d:5a:df:68:3d:20:3c:cd:2c:fc:40:06:c8:84:cd:f0:4a:1e:36:77" 
 # Backup content (e.g., specific directories or archives)
 # Example: backup /etc and /var/log
 BACKUP_CONTENT="root.pxar:/"
 REPO="root@pam@192.168.3.76:$2"
-echo "$REPO"
+# echo "$REPO"
 # Encryption key (if using client-side encryption)
 # PVE_ENCRYPTION_KEY_FILE="/path/to/your/encryption_keyfile" # Uncomment and set if needed
 
